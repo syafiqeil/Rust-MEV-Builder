@@ -1,0 +1,18 @@
+[package]
+name = "mev-strategy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mev-common = { path = "../common" }
+mev-simulator = { path = "../simulator" }
+mev-executor = { path = "../executor" }
+
+alloy = { workspace = true }
+alloy-primitives = { workspace = true }
+revm = { workspace = true }
+revm-primitives = { workspace = true }
+hex = { workspace = true }
+dotenv = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }

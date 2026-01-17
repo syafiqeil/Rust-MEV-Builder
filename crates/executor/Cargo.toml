@@ -1,0 +1,16 @@
+[package]
+name = "mev-executor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy = { workspace = true }
+anyhow = { workspace = true }
+reqwest = { workspace = true }
+serde = { workspace =  true }
+serde_json = { workspace = true }
+dotenv = {  workspace = true }
+tracing = { workspace = true }
+hex = { workspace = true }
+tokio = { workspace = true }
+url = { workspace = true }
